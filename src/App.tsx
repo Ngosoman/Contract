@@ -69,7 +69,7 @@ const initialForm = {
   managerRole: 'Founder & Creative Director',
 }
 
-function formatCurrency(value) {
+function formatCurrency(value: number) {
   return new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: 'USD',
@@ -104,7 +104,7 @@ function App() {
     }
   }, [form])
 
-  const updateField = (field, value) => {
+  const updateField = (field: keyof typeof initialForm, value: string | number) => {
     setForm((current) => ({ ...current, [field]: value }))
   }
 
