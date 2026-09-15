@@ -46,7 +46,7 @@ const documentTypes = [
 ]
 
 const initialForm = {
-  businessName: 'Northstar Studio',
+  businessName: 'Ngosoman Studios',
   clientName: 'Apex Wellness',
   clientEmail: 'hello@apexwellness.com',
   clientPhone: '+254 712 345 678',
@@ -298,7 +298,7 @@ function App() {
     <div className="app-shell">
       <header className="topbar">
         <div>
-          <p className="brand-kicker">Client workflow</p>
+          <p className="brand-kicker">Ngosoman Studios</p>
           <h1>{form.businessName}</h1>
         </div>
         <div className="topbar-actions">
